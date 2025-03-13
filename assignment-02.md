@@ -104,7 +104,7 @@ Derive asymptotic upper bounds of work for each recurrence below.
 .  
 . 
 . 
-
+![Joshua Burch Algo Assignment2](Joshua%20Burch%20Algo%20Assignment2.pdf)
 
 ## Part 2. Algorithm Comparison
 
@@ -162,6 +162,13 @@ Below, we'll solve this problem three different ways, using iterate, scan, and d
 
 **enter answer here**
 
+W(n)= W(n−1) + O(1)
+
+W(n) = O(n)
+
+S(n)= S(n−1) + O(1)
+
+S(n) = O(n)
 .  
 . 
 
@@ -178,8 +185,13 @@ Below, we'll solve this problem three different ways, using iterate, scan, and d
 
 **enter answer here**
 
-.  
-.  
+    W(n)= 2W(n/2) + O(n)
+
+.  W(n) = O(n)
+
+S(n)= S(n/2) + O(logn)
+
+.  S(n) = O(logn)
 
 
 
@@ -198,6 +210,15 @@ Below, we'll solve this problem three different ways, using iterate, scan, and d
 **3f.** Assuming any recursive calls are done in parallel, what are the recurrences for the Work and Span of this solution? What are their Big Oh solutions?
 
 **enter answer here**
+
+W(n)= 2W(n/2) + O(1)
+
+W(n) = O(n)
+
+S(n)=S(n/2) + O(1)
+
+S(n) = O(logn)
+
 
 .  
 . 
